@@ -10,12 +10,33 @@ on:
 
 jobs:
   update-badge:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
-      - uses: p4p1/tryhackme-badge-workflow@main
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          username: "skye.jen"
-          user_public_id: "65e70a43bbad83d51ceb7c2a"
-          use_static_image: false
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Configure Git Identity
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+      - name: Fetch TryHackMe Badge
+        uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
+        continue-on-error: true
+        with:
+          image_path: './assets/thm_propic.png'
+          username: 'skye.jen'
+          user_id: '65e70a43bbad83d51ceb7c2a'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push badge if changed
+        env:
+          COMMIT_MESSAGE: "Updated THM profile badge"
+        run: |
+          git add ./assets/thm_propic.png || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin "HEAD:${{ github.ref_name }}"
