@@ -16,4 +16,6 @@ jobs:
       - uses: p4p1/tryhackme-badge-workflow@main
         with:
           username: "skye.jen"
+          user_public_id: "65e70a43bbad83d51ceb7c2a"
+          use_static_image: false
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
