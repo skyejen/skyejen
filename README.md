@@ -95,7 +95,7 @@ Keep an eye out, but in the meantime, check out my [TryHackMe profile](https://t
 ## 📬 find me
 
 - 🔗 [TryHackMe](https://tryhackme.com/p/skye.jen)
-- 💼 [LinkedIn](https://www.linkedin.com/in/jen-skye-5b73b2105/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/skyejen/)
 
 </td>
 </tr>
