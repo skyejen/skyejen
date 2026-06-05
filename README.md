@@ -8,7 +8,7 @@
 
 # 🌊 intro
 
-10+ years in Quality Assurance across localisation, compliance and game dev. Now a Tech Ops Manager @ game dev startup.
+10+ years in QA and technical operations. Now a Tech Ops Manager @ game dev startup.
 Currently losing myself in the fascinating world of cybersecurity, it opened a portal into another dimension, and the outside is mesmerising.
 
 My cybersecurity ~~obsession~~ journey started in early 2026 on TryHackMe, with my fellow mentor & teaching buddy Claude - strictly configured to only poke me in the right direction and help me see things from different angles if I get stuck. AI is another obsession of mine, what a time to be alive!
@@ -85,7 +85,9 @@ Keep an eye out, but in the meantime, check out my [TryHackMe profile](https://t
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![DevTools](https://img.shields.io/badge/Browser_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
