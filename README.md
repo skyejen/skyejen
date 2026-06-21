@@ -21,9 +21,10 @@ My whole life the "protect and serve" concept never let me go, perhaps cybersecu
 
 # 💻 currently
 
-- Working through **TryHackMe: Cyber Security 101** path → [![TryHackMe](https://img.shields.io/badge/TryHackMe-skye.jen-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/skye.jen)
+- Completed **TryHackMe: Cyber Security 101** path end of June 2026, currently deciding on the new learning path → [![TryHackMe](https://img.shields.io/badge/TryHackMe-skye.jen-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/skye.jen)
 - Building write-ups as I go → [`skyejen/cybersecurity`](https://github.com/skyejen/cybersecurity)
 - Figuring out what kind of security practitioner I want to be
+- Advancing my Python skills with Angela Yu's bootcamp and continuing to explore pytest and test automation
 - Holding down a Tech Ops Manager role at a game dev startup while doing all of the above
 
 ---
