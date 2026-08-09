@@ -8,7 +8,9 @@
 
 ### 🌊 intro
 
-A decade in QA and technical operations, now moving into security, DevOps, and AI. I break things down to see how they work (or don't), then write up what I figure out.
+A decade in QA and technical operations, now moving into cybersecurity, DevOps, and AI. I break things down to see how they work (or don't), then write up what I figure out.
+
+Working with AI comes naturally to me: I direct it where it accelerates me, and I know its limits well enough to catch what's wrong.
 
 Portfolio projects, case studies, and learning write-ups, across cybersecurity, Python, and DevOps, all live in one place → 🌐 [skyejen.github.io](https://skyejen.github.io)
 
